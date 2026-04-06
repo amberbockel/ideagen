@@ -631,10 +631,66 @@ const COLS = [
 ];
 
 const FALLBACK = {
-  persona:   ['Busy parent','Remote worker','College student','Freelance designer','Healthcare worker','Small business owner','Fitness enthusiast','First-time homeowner','Retired professional','Daily commuter','Content creator','Team manager','New immigrant','Night-shift nurse','Solo traveller'],
-  expertise: ['AI writing tools','Figma','Notion','Claude','voice interfaces','short-form video','spreadsheets','calendar apps','habit trackers','project management','email workflows','maps & navigation','generative AI','no-code builders','GPT plugins'],
-  device:    ['iPhone','Android phone','iPad Pro','Apple Watch','smart TV','MacBook','Windows laptop','smart speaker','desktop browser','e-reader','Android tablet','in-car display','Vision Pro','Galaxy Watch','Kindle'],
-  problem:   ['plan meals for the week','track daily habits','manage recurring tasks','learn something new every day','stay on top of finances','connect with friends','improve sleep quality','organise home projects','follow up on work items','remember important dates','track health metrics','reduce decision fatigue','stay consistent with exercise','manage medication','capture fleeting ideas'],
+  persona: [
+    'Busy parent','Remote worker','College student','Freelance designer','Healthcare worker',
+    'Small business owner','Fitness enthusiast','First-time homeowner','Retired professional','Daily commuter',
+    'Content creator','Team manager','New immigrant','Night-shift nurse','Solo traveller',
+    'Graduate student','K-12 teacher','Personal trainer','Real estate agent','Software engineer',
+    'Marketing manager','Entrepreneur','Family caregiver','High school student','Home chef',
+    'Journalist','Event planner','Nonprofit director','UX researcher','Product manager',
+    'Financial advisor','Therapist','New dog owner','First-time parent','Digital nomad',
+    'Gig worker','Corporate recruiter','Podcast host','E-commerce seller','Music producer',
+    'Interior designer','Life coach','Social media manager','Yoga instructor','Language learner',
+    'Startup founder','High school athlete','Book club organiser','Urban gardener','Weekend warrior',
+    'Part-time student','Chronic illness patient','Long-distance runner','Meal-prep enthusiast','Aspiring novelist',
+    'Amateur photographer','Board game enthusiast','Vintage collector','Plant parent','Budget traveller',
+    'Remote teacher','Elder-care giver','Freelance writer','Corporate lawyer','Indie game developer'
+  ],
+  expertise: [
+    'AI writing tools','Figma','Notion','Claude','voice interfaces',
+    'short-form video','spreadsheets','calendar apps','habit trackers','project management',
+    'email workflows','maps & navigation','generative AI','no-code builders','GPT plugins',
+    'Canva','Slack','Zoom','Google Docs','Trello',
+    'Airtable','Linear','GitHub Copilot','ChatGPT','Midjourney',
+    'Zapier','Webflow','Framer','Adobe Photoshop','Loom',
+    'Superhuman','Obsidian','Roam Research','Todoist','Bear Notes',
+    'Arc browser','1Password','Spotify playlists','Apple Health','Strava',
+    'Duolingo','Coursera','YouTube tutorials','Reddit communities','Discord servers',
+    'WhatsApp groups','LinkedIn','Substack newsletters','Typeform surveys','Calendly',
+    'Descript','CapCut','Runway ML','Perplexity AI','Replit',
+    'Glide apps','Make (Integromat)','Retool','Stripe','Shopify',
+    'Square POS','QuickBooks','Xero','voice memos','browser extensions'
+  ],
+  device: [
+    'iPhone','Android phone','iPad Pro','Apple Watch','smart TV',
+    'MacBook','Windows laptop','smart speaker','desktop browser','e-reader',
+    'Android tablet','in-car display','Vision Pro','Galaxy Watch','Kindle',
+    'iPad mini','Surface Pro','Chromebook','AirPods Pro','HomePod',
+    'Garmin watch','Fitbit','Nintendo Switch','Steam Deck','large desktop monitor',
+    'dual monitors','ultrawide display','standing desk display','foldable phone','rugged tablet',
+    'digital whiteboard','smart ring','AR glasses','VR headset','webcam + mic setup',
+    'podcast mic','drawing tablet','MIDI keyboard','NFC stickers','smart home hub',
+    'baby monitor app','elder-care wearable','school Chromebook','library kiosk','shared family tablet',
+    'smart projector','wearable health patch','smart glasses','in-ear translator','handheld scanner',
+    'portable hotspot','satellite messenger','bike computer','treadmill screen','USB hub workstation',
+    'keyboard shortcut deck','robot vacuum app','receipt printer','phablet','head-up display',
+    'CGM sensor','mesh network app','smart fridge display','alarm clock display','streaming stick'
+  ],
+  problem: [
+    'plan meals for the week','track daily habits','manage recurring tasks','learn something new every day','stay on top of finances',
+    'connect with friends','improve sleep quality','organise home projects','follow up on work items','remember important dates',
+    'track health metrics','reduce decision fatigue','stay consistent with exercise','manage medication','capture fleeting ideas',
+    'prioritise a growing task list','prepare for job interviews','get feedback on creative work','negotiate better prices','understand a complex topic quickly',
+    'stay focused during deep work','manage multiple client projects','write faster and more clearly','keep a gratitude journal','build a consistent morning routine',
+    'stay hydrated throughout the day','batch household errands efficiently','track spending across categories','reduce screen time before bed','remember names and faces',
+    'stay on top of news without doom-scrolling','practise a second language daily','find time to read more books','coordinate schedules with a partner','find childcare options quickly',
+    'track a child\'s milestones','manage anxiety with micro-breaks','decompress after a stressful day','build new professional skills','network without feeling awkward',
+    'remember what was discussed in meetings','onboard new team members smoothly','stay motivated toward a long-term goal','prototype an idea before coding it','repurpose content across platforms',
+    'schedule social posts in advance','respond to customer messages faster','handle returns and complaints easily','send timely follow-up emails','draft contracts without a lawyer',
+    'stay compliant with tax deadlines','invoice clients without errors','manage inventory in real time','collect customer feedback systematically','automate repetitive admin tasks',
+    'block distracting apps during work','find a reliable service provider fast','prepare healthy snacks in advance','stick to a budget while travelling','find dog-friendly spots nearby',
+    'track pet health and vet records','coordinate a home renovation project','find quick recipes for leftovers','keep plants on a watering schedule','review progress toward fitness goals'
+  ],
 };
 
 /* Iconoir SVG strings for lock / unlock */
